@@ -46,16 +46,22 @@ body {
     justify-content: space-between; 
     flex-direction: row;
     text-decoration: none;
+    
 }
+
 
 a:link, a:visited {
     color: aliceblue;
     text-decoration: none;
+}
 
+a:hover {
+    color: grey;
+    transition: 0.4s;
 }
 
 .links2 {
-    padding: 0px 20px;
+    padding: 0px 20px; 
 }
 
 .middle {
@@ -137,6 +143,13 @@ button {
     padding: 5px 20px;
     margin: 10px 0px;
     cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+button:hover {
+    background-color: rgb(9, 41, 41);
+    transition: 0.4s;
+    transform: scale(1.1);
 }
 
 .footer {
