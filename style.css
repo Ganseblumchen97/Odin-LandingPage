@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    background-color: #1f2937;
+    padding: 20px 150px;
+}
+
+.heroContainer {
+    display: flex;
+    background-color: #1f2937;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.head2 {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 150px;
+    width: 600px;
+}
+
+.img2 img {
+    width: 500px;
+    height: 200x;
+    border: none;
+    margin-right: 150px;
+    border-radius: 5px;
+}
+
+.links {
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between; 
+    flex-direction: row;
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    color: aliceblue;
+    text-decoration: none;
+
+}
+
+.links2 {
+    padding: 0px 20px;
+}
+
+.middle {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.middleTitle {
+    align-self: center;
+    flex-basis: 100%;
+}
+
+.img {
+    justify-content: center;
+    margin: 20px;
+    width: 100px;
+}
+
+.middle img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 3px solid rgb(71, 117, 216);
+    border-radius: 7px;
+    width: 100px;
+    height: 100px;
+    align-items: flex-end;
+    align-self: center;
+}
+
+.middle2 {
+    background-color: rgb(236, 236, 236);
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.middletxt {
+    font-size: 20px;
+    width: 500px;
+    font-style: italic;
+}
+
+.thor {
+    text-align: right;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.end {
+    background-color: white;
+}
+
+.end2 {
+    color: aliceblue;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: rgb(71, 117, 216);
+    margin: 50px 150px;
+    padding: 20px 50px;
+    border-radius: 5px;
+}
+
+button {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(71, 117, 216);
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 5px 20px;
+    margin: 10px 0px;
+    cursor: pointer;
+}
+
+.footer {
+    color: aliceblue;
+    background-color: #1f2937;
+    text-align: center;
+    padding: 20px;
+    position: static;
+    bottom: 0;
+    width: 100%;
+    
+}
+
+h2, h3, p {
+    margin: 0;
+}
+
+h2, h3 {
+    font-weight: bold;
+}
